@@ -1,0 +1,24 @@
+*,
+::after,
+::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+$grey-clr1: hsl(0, 0%, 55%);
+$grey-clr2: hsl(0, 0%, 41%);
+
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: 'Alata', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.5rem;
+}
