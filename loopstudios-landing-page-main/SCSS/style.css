@@ -15,10 +15,18 @@ ul {
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 body {
   font-family: 'Alata', sans-serif;
-  font-family: 'Josefin Sans', sans-serif;
   font-size: 1.5rem;
-  color: red;
+}
+
+footer {
+  background-color: black;
+  color: white;
 }
 /*# sourceMappingURL=style.css.map */
