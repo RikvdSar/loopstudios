@@ -1,6 +1,35 @@
 @import 'base';
+@import 'positionGrid';
+
+header {
+    background: black url(../images/mobile/image-hero.jpg) no-repeat center;
+    height: 100vh;
+    background-size: cover;
+}
+
+.header__nav--ul {
+    display: none;
+}
+
+
+h1 {
+    color: white;
+    border: 3px solid white;
+    padding: 1em;
+    font-weight: 300;
+}
+
+.btn {
+    color: black;
+    border: 2px solid black;
+    padding: 0.7em 2em;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: bolder;
+}
 
 footer {
     background-color: black;
     color: white;
 }
+

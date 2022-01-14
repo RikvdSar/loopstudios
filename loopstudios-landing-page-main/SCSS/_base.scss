@@ -18,12 +18,38 @@ ul {
 }
 
 a {
+    display: inline-block;
     text-decoration: none;
-    color: black;
+    color: white;
+}
+
+img {
+    display: block;
+    max-width: 100%;
 }
 
 body {
     font-family: 'Alata', sans-serif;
-    // font-family: 'Josefin Sans', sans-serif;
-    font-size: 1.5rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+h1 {
+    text-align: left;
+    font-size: clamp(5rem, 5vw, 7rem);
+}
+
+h2 {
+    font-size: clamp(4rem, 5vw, 6rem);
+}
+
+h1,
+h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+p {
+    color: $grey-clr1;
 }
